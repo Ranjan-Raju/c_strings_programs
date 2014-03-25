@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
-
+//to-d0, fix the code.
+//regular looping method works, but recursive method fails because first call to recursion skips first character.
 void reverse_recursive(char *input){
     printf("1. input is %c\n",*input);
     if (*input == '\0'){
         return;
 
-    reverse_recursive(++end);
+    reverse_recursive(++end); // to-do fix this, you are already passing second character.
         }
     char temp;
     char *end = input;
