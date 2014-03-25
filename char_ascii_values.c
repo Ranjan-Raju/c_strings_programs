@@ -5,7 +5,7 @@
     To check if the null terminating character '\0' is actually integer zero.
     */
 int main(){
-char array_name [] = "abczABCZ";
+char array_name [] = "abczABCZ\0";
 char *ptr_char = array_name;
 
 printf("the strlen is %d\n",strlen(array_name));
