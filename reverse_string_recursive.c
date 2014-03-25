@@ -7,7 +7,7 @@ void reverse_recursive(char *input){
     if (*input == '\0'){
         return;
 
-    reverse_recursive(++end); // to-do fix this, you are already passing second character.
+    reverse_recursive(++end); // to-do fix this, you are already passing second character..
         }
     char temp;
     char *end = input;
