@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-//to-do, fix the code.
+//to-do, fix the code..
 //regular looping method works, but recursive method fails because first call to recursion skips first character.
 void reverse_recursive(char *input){
     printf("1. input is %c\n",*input);
