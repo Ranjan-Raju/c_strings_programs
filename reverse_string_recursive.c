@@ -27,6 +27,6 @@ int main(){
    char *input = "Indigo";
    printf("before reverse string is %s\n", input);
    reverse_recursive(input);
-   printf("after reverse string is %s\n", input);
+   printf("after reverse string is %s\n", input);//
 
 }
